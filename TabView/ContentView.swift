@@ -14,7 +14,6 @@ struct ContentView: View {
     var body: some View {
         
         
-        
         TabView(selection: $tabIndex) {
             Text("This is tab 1")
                 .tabItem {
